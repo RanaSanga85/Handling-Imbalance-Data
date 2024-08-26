@@ -33,6 +33,7 @@ SMOTETomek combines SMOTE and Tomek Links. SMOTE generates synthetic samples for
     pip install imbalanced-learn scikit-learn
 
 #### Dataset
-[Credit Card Fraud Detection]:https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+[Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
 Contributing
 Feel free to submit pull requests or open issues if you have suggestions or encounter problems. Contributions to improve the handling of imbalanced data are welcome!
