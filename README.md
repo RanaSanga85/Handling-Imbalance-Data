@@ -5,7 +5,7 @@ This repository contains examples and implementations of techniques for handling
 #### 1. Oversampling
 Oversampling increases the number of instances in the minority class to balance the class distribution. This technique helps the model to learn better from the minority class data.
 ##### Common Oversampling Techniques:
-Random Oversampling: Duplicates instances of the minority class.
+NearMiss
         
     from imblearn.under_sampling import NearMiss
     from collections import Counter
