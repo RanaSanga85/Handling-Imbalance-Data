@@ -35,5 +35,5 @@ SMOTETomek combines SMOTE and Tomek Links. SMOTE generates synthetic samples for
 #### Dataset
 [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
-Contributing
+#### Contributing
 Feel free to submit pull requests or open issues if you have suggestions or encounter problems. Contributions to improve the handling of imbalanced data are welcome!
