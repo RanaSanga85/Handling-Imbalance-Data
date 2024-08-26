@@ -22,15 +22,15 @@ NearMiss: Selects instances from the majority class that are closest to the mino
 ### 3. SMOTETomek
 SMOTETomek combines SMOTE and Tomek Links. SMOTE generates synthetic samples for the minority class, and Tomek Links cleans up the dataset by removing ambiguous instances close to the decision boundary.
 
-        from imblearn.over_sampling import SMOTETomek
-        smote_tomek = SMOTETomek(sampling_strategy='auto', random_state=42)
-        X_resampled, y_resampled = smote_tomek.fit_resample(X_train, y_train)
+    from imblearn.over_sampling import SMOTETomek
+    smote_tomek = SMOTETomek(sampling_strategy='auto', random_state=42)
+    X_resampled, y_resampled = smote_tomek.fit_resample(X_train, y_train)
         
 
 #### Clone the Repository:
-        git clone https://github.com/yourusername/imbalanced-data-handling.git
+    git clone https://github.com/yourusername/imbalanced-data-handling.git
 #### Install Dependencies: Ensure you have imbalanced-learn and scikit-learn installed:
-        pip install imbalanced-learn scikit-learn
+    pip install imbalanced-learn scikit-learn
 
 
 Contributing
